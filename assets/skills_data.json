@@ -1,0 +1,247 @@
+{
+    "skills": [
+        {
+            "name": "Block",
+            "category": "General",
+            "description": "When a both down result is applied during a Block action, this player may choose to ignore it and not be knocked Down."
+        },
+        {
+            "name": "Dauntless",
+            "category": "General",
+            "description": "When this player performs a Block action (on its own or as part of a Blitzaction), if the nominated target has a higher strength characteristic than this player before counting offensive or defensive assists but after applying any other modifiers, roll a D6 and add this player's strength characteristic to the result. If the total is higher than the target's strength characteristic, this player increases their strength characteristic to be equal to that of the target of the Block action, before counting offensive or defensive assists, for the duration of this Block action. If this player has another Skill that allows them to perform more than one Block action, such as Frenzy, they must make a Dauntless roll before each separate Block action is performed."
+        },
+        {
+            "name": "Dirty Player (+x)",
+            "category": "General",
+            "description": "When this player commits a Foul action, either the Armour roll or the injury roll made against the victim may be modified by the amount shown in brackets. This modifier may be applied after the roll has been made."
+        },
+        {
+            "name": "Fend",
+            "category": "General",
+            "description": "If this player is pushed back as the result of any block dice result being applied against them, they may choose to prevent the player that pushed them back from following-up. However, the player that pushed them back may continue to move as part of a Blitz action if they have Movement Allowance remaining or by Rushing. The skill cannot be used when this player is chain-pushed, against a player with Ball and Chain trait or against a player with the Juggernaut skill that performed the Block action as part of a Blitz."
+        },
+        {
+            "name": "Frenzy",
+            "category": "General",
+            "description": "Every time this player performs a Block action (on its own or as part of a Blitz action), they must follow-up if the target is pushed back and if they are able. If the target is still Standing after being pushed back, and if this player was able to follow-up, this player must then perform a second block action against the same target, again following-up if the target is pushed back. If this player performing a Blitz action, performing a second Block action will also cost them one square of their Movement Allowance. If this player has no Movement Allowance left to perform a second Block action, they must Rush to do so. If they cannot Rush, they cannot perform a second Block action. Note that if an opposition player in possession of the ball is pushed back into your End Zone and is still standing, a touchdown will be scored, ending the drive. In this case, the second Block action is not performed. A player with this skill cannot also have Grab skill."
+        },
+        {
+            "name": "Kick",
+            "category": "General",
+            "description": "If this player is nominated to be the kicking player during a kick-off, you may choose to halve the result of the D6 to determine the number of squares that the ball deviates, rounding any fractions down."
+        },
+        {
+            "name": "Pro",
+            "category": "General",
+            "description": "During their activation, this player may attempt to re-roll one dice. This dice may have been rolled either as a single dice roll, as part of a multiple dice roll or as part of a dice pool, but cannot be a dice that was rolled as part of an Armour, Injury or Casualty roll. Roll a D6: On a roll of 3+, the dice can be re-rolled, on a roll of 1 or 2, the dice cannot be re-rolled. Once this player has attempted to use this Skill, they may not use a re-roll from any other source to re-roll this one dice."
+        },
+        {
+            "name": "Shadowing",
+            "category": "General",
+            "description": "This player can use this Skill when an opposition player they are Marking voluntarily moves out of a square within this player's Tackle Zone. Roll a D6, adding the MA of this player to the roll and then subtracting the MA of the opposition player. If the result is 6 or higher, or if the roll is a natural 6, this player may immediately move into the square vacated by the opposition player (this player does not need to Dodge to make this move). If, however, the result is 5 or lower, or if the roll is a natural 1, this skill has no further effect. A player may use this skill any number of times per turn, during either team's turn, If an opposition player is being Marked by more than one player with this Skill, only one player may use it."
+        },
+        {
+            "name": "Strip Ball",
+            "category": "General",
+            "description": "When this player targets an opposition player that is in possession of the ball with a Block action (on its own or as part of a Blitz action), choosing to apply a Push Back result will cause that player to drop the ball in the square they are pushed back into. The ball will bounce from the square the player is pushed back into, as if they had been Knocked Down."
+        },
+        {
+            "name": "Sure Hands",
+            "category": "General",
+            "description": "This player may re-roll any failed attempt to pick up the ball. In addition, the Strip Ball skill cannot be used against a player with this Skill."
+        },
+        {
+            "name": "Tackle",
+            "category": "General",
+            "description": "When an active opposition player attempts to Dodge from a square in which they were being Marked by one or more players on your team with this Skill, that player cannot use the Dodge skill. Additionally, when an opposition player is targeted by a Block action performed by a player with this Skill, that player cannot use the Dodge skill if a Stumble result is applied against them."
+        },
+        {
+            "name": "Wrestle",
+            "category": "General",
+            "description": "This player may use this Skill when a Both Down result is applied, either when they perform a Block action or when they are the target of a Block action. Instead of applying the Both Down result as normal, and regardless of any other Skills either player may possess, both players are placed Prone."
+        },
+
+        {
+            "name": "Catch",
+            "category": "Agility",
+            "description": "This player may reroll a failed Agility test when attempting to catch the ball."
+        },
+        {
+            "name": "Defensive",
+            "category": "Agility",
+            "description": "During your opponent's team turn (but not during your own team), any opposition player being marked by this player cannot use the guard skill."
+        },
+        {
+            "name": "Diving Catch",
+            "category": "Agility",
+            "description": "This player may attempt to catch the ball if a pass, throw-in or kick-off causes it to land in a square within their tackle Zone after scattering or deviating. This skill does not allow this player to attempt to catch the ball if it bounces into a square within their Tackle Zone.Additionally, this player may apply a +1 modifier to any attempt to catch an accurate pass if they occupy the target square."
+        },
+        {
+            "name": "Diving Tackle",
+            "category": "Agility",
+            "description": "Should an active opposition player that is attempting to Dodge, Jump or Leap in order to vacate a square in which they are being Marked by this player will use this Skill, Your opponent must immediate subtract 2 from the result of the Agility test. This player s placed Prone in the square vacated by the opposition player. If the opposition player was being marked by more than one player with this Skill, only one player may use it."
+        },
+        {
+            "name": "Dodge",
+            "category": "Agility",
+            "description": "Once per turn, during their activation, this player may re-roll a failed Agility test when attempting to Dodge. Additionally, this player may choose to use this Skill when they are the target of a Block action and a Stumble result is applied against them."
+        },
+        {
+            "name": "Jump Up",
+            "category": "Agility",
+            "description": "If this player is Prone they may stand up for free (i.e. standing up does not cost this player three (3) squares of their Movement Allowance, as it normally would). Additionally, if this player is Prone when activated, they may attempt to Jump Up and perform a Block action. This player makes an Agility test, applying a +1 modifier, if this test is passed, they stand up and may perform a Block action. If the test failed, they remain Prone and their activation ends."
+        },
+        {
+            "name": "Leap",
+            "category": "Agility",
+            "description": "During their movement, instead of jumping over a single square that is occupied by a Prone or Stunned player, as described on page 45, a player with this skill may choose to Leap over any single adjacent square, including unoccupied squares and squares occupied by standing players. Additionally, this player may reduce any negative modifier applied to the Agility test when they attempt to Jump over a Prone or Stunned player, or to Leap over an empty square or a square occupied by a standing player by 1, to a minimum of +1. A player with this skill cannot also have the Pogo Stick trait."
+        },
+        {
+            "name": "Safe Pair of Hands",
+            "category": "Agility",
+            "description": "If this player is Knocked Down or Placed Prone (but not it they Fall Over) whilst in possession of the ball, the ball does not bounce. Instead, you may place the ball in an unoccupied square adjacent to the one this player occupies when they become Prone."
+        },
+        {
+            "name": "Side Step",
+            "category": "Agility",
+            "description": "If this player is pushed back for any reason, they are not moved into a square chosen by the opposing coach. Instead you may choose any unoccupied square adjacent to this player. This player is pushed back into that square instead. If there are no unoccupied squares adjacent to this player, this skill cannot be used."
+        },
+        {
+            "name": "Sneaky Git",
+            "category": "Agility",
+            "description": "When this player performs a Foul action, they are not Sent-Off for committing a Foul should they roll a natural double on armour roll. Additionally, the activation of this player does not have to end once the Foul have been committed. If you wish and this player has not used their full Movement Allowance, they may continue to move after committing the Foul."
+        },
+        {
+            "name": "Sprint",
+            "category": "Agility",
+            "description": "When this player performs any action that includes movement, they may attempt to Rush three times, rather than the usual two."
+        },
+        {
+            "name": "Sure Feet",
+            "category": "Agility",
+            "description": "Once per team turn, during their activation, this player may re-roll the D6 when attempting to Rush."
+        },
+
+        {
+            "name": "Accurate",
+            "category": "Passing",
+            "description": "Additional +1 modifier to the Passing Ability test (Quick or Short Pass action only)"
+        },
+        {
+            "name": "Cannoneer",
+            "category": "Passing",
+            "description": "When this player performs a Long Bomb Pass action, you may apply an additional +1 modifier to the Passing Ability test."
+        },
+        {
+            "name": "Cloud Burster",
+            "category": "Passing",
+            "description": "When this player performs a Long Pass action or a Long Bomb Pass action, you may choose to make the opposing coach re-roll a successful attempt to interfere with the pass."
+        },
+        {
+            "name": "Dump-Off",
+            "category": "Passing",
+            "description": "If this player is nominated as the target of a Block action (or a Special action granted by a Skill or Trait that can be performed instead of a Block action) and if they are in possession of the ball, they may immediately perform a Quick Pass action, interrupting the activation of the opposition player performing the Block action (or Special action) to do so. This Quick Pass action cannot cause a Turnover, but otherwise all of the normal rules for passing the ball apply. Once the Quick Pass action is resolved, the active player performs the Block action and their team turn continues."
+        },
+        {
+            "name": "Fumblerookie",
+            "category": "Passing",
+            "description": "When this player performs a Move or Blitz action whilst in possession of the ball, they may choose to 'drop' the ball. The ball may be placed in any square the player vacates during their movement and does not bounce. No turnover is caused."
+        },
+        {
+            "name": "Hail Mary Pass",
+            "category": "Passing",
+            "description": "When this player performs a Pass action (or a Throw Bomb action), the target square can be anywhere on the pitch and the range ruler does not need to be used. A Hail Mary Pass is never accurate, regardless of the result of the Passing Ability test it will always be inaccurate at best. A Passing Ability test is made and can be re-rolled as normal in order to determine if the Hail Mary Pass is wildly inaccurate or is fumbled. A Hail Mary Pass cannot be interfered with. This Skill may not be used in a Blizzard."
+        },
+        {
+            "name": "Leader",
+            "category": "Passing",
+            "description": "A team which has one or more players with this Skill gains a single extra team re-roll, However, the Leader re-roll can only be used if there is at least one player with this Skill on the pitch (even if the player with this Skill is Prone, Stunned or has lost their Tackle Zone). If all players with this Skill are removed from play before the Leader re-roll is used, is lost. The Leader Re-roll can be carried over into extra time if it is not used, but the team does not receive a new one at the start of extra time. Unlike standard Team Re-rolls, the Leader Re-roll cannot be lost due to a Halfling Master Chef. Otherwise, the Leader re-roll is treated just like a normal team re-roll."
+        },
+        {
+            "name": "Nerves of Steel",
+            "category": "Passing",
+            "description": "This player may ignore any modifier(s) for being Marked when they attempt to perform a Pass action, attempt to catch the ball or attempt to interfere with a pass."
+        },
+        {
+            "name": "On The Ball",
+            "category": "Passing",
+            "description": "This player may move up to three squares (regardless their MA), following all of the normal movement rules, when the opposing coach declares that one of their player is going to perform a Pass action. This move is made after the range has been measured and the target square declared, but before the active player makes a Passing Ability test. Making this move interrupts the activation of the opposition player performing the Pass action. A player may use this Skill when an opposition player uses the Dump-Off skill, but should this player Fail Over whilst moving, a Turnover is caused. Additionally, during each Start of Drive sequence, after Step 2 but before Step 3, one Open player with this Skill on the receiving team may move up to three squares (regardless of their MA). This Skill may not be used if a touchback is caused when the kick deviates and does not allow the player to cross into their opponent's half of the pitch."
+        },
+        {
+            "name": "Pass",
+            "category": "Passing",
+            "description": "This player may re-roll a failed Passing Ability test when performing a Pass action."
+        },
+        {
+            "name": "Running Pass",
+            "category": "Passing",
+            "description": "If this player performs a Quick Pass action, their activation does not have to end once the pass is resolved. If you wish and if this player has not used their full Movement Allowance, they may continue to move after resolving the pass."
+        },
+        {
+            "name": "Safe Pass",
+            "category": "Passing",
+            "description": "Should This player fumble a Pass Action, the ball is not dropped, does not bounce from the square this player occupies, and no Turnover is caused. Instead, this player retains possession of the ball and their activation ends."
+        },
+
+        {
+            "name": "Arm Bar",
+            "category": "Strength",
+            "description": "If an opposition player Falls Over as a result of failing their Agility test when attempting to Dodge, Jump or Leap out of a square in which they were being Marked by this player, you may apply a +1 modifier to either the armour roll or Injury roll. This modifier may be applied after the roll has been made and may be applied even if this player is row Prone. If the opposition player was being marked by more than one player with this Skill, only one player may use it."
+        },
+        {
+            "name": "Brawler",
+            "category": "Strength",
+            "description": "When this player performs a Block action on its own (but not as part of a Blitz Action), this player may re-roll a single Both Down result."
+        },
+        {
+            "name": "Break Tackle",
+            "category": "Strength",
+            "description": "Once during their activation, after making an Agility test in order to Dodge, this player may modify the dice roll by +1 if their Strength characteristic is 4 or less, or by +2 if their Strength characteristic is 5 or more."
+        },
+        {
+            "name": "Grab",
+            "category": "Strength",
+            "description": "When this player performs a Block action (on its own or as part of a Blitz action), using this Skill prevents the target of the Block action from using the Side Step skill. Additionally, when this player performs a Block Action on its own (but not as part of a Blitz action), if the target is pushed back, this player may choose any unoccupied square adjacent to the target to push that player into. If there are no unoccupied squares, this Skill cannot be used. A player with this Skill cannot also have the Frenzy skill."
+        },
+        {
+            "name": "Guard",
+            "category": "Strength",
+            "description": "This player can offer both offensive and defensive assists regardless of how many opposition players are marking them."
+        },
+        {
+            "name": "Juggernaut",
+            "category": "Strength",
+            "description": "When this player performs a Block action as part of a Blitz action (but not on its own), they may choose to treat a Both Down result as a Push Back result, in addition, when this player performs a Block action as part of a Blitz action, the target of the Block action may not use the Fend, Stand Firm or Wrestle skills."
+        },
+        {
+            "name": "Mighty Blow (+x)",
+            "category": "Strength",
+            "description": "When an opposition player is Knocked Down as the result of a Block action performed by this player (on its own or as part of a Blitz action), you may modify either the Armour roll or Injury roll by the amount shown in brackets. This modifier may be applied after the roll has been made. This Skill cannot be use+ with the Stab or Chainsaw traits."
+        },
+        {
+            "name": "Multiple Block",
+            "category": "Strength",
+            "description": "When this player performs a Block action on its own (but not as part of a Blitz action), they may choose to perform two Block actions, each targeting a different player they are Marking. However, doing so will reduce this player's Strength characteristic by 2 for the duration of this activation. Both Block actions are performed simultaneously, meaning both are resolved in full even if one or both result is a Turnover. The dice rolls for each Block action should be kept separate to avoid confusion. This player cannot follow-up when using this Skill. Note that choosing to use this Skill means this player will be unable to use the Frenzy skill during the same activation."
+        },
+        {
+            "name": "Pile Driver",
+            "category": "Strength",
+            "description": "When an opposition player is Knocked Down by this player as the result of a Block action (on its own or as part of a Blitz action), this player may immediately commit a free Foul action against the Knocked Down player. To use this Skill, this player must be Standing after the block dice result has been selected and applied, and must occupy a square adjacent to the Knocked Down player, After using this Skill, this player is Placed Prone and their activation ends immediately."
+        },
+        {
+            "name": "Stand Firm",
+            "category": "Strength",
+            "description": "This player may choose not to be pushed back, either as the result of a Block action made against them or by a chain-push. Using this Skill does not prevent an opposition player with the Frenzy Skill from performing a second Block action if this player is still Standing after the first."
+        },
+        {
+            "name": "Strong Arm",
+            "category": "Strength",
+            "description": "This player may apply a +1 modifier to any Passing Ability test rolls they make when performing a Throw Team-mate action. A player that does not have the Throw team-mate trait cannot have this Skill."
+        },
+        {
+            "name": "Thick Skull",
+            "category": "Strength",
+            "description": "When an Injury roll is made against this player (even if this player is Prone, Stunned or has lost their Tackle Zone), they can only be KO'd on a roll of 9, and will treat a roll of 8 as stunned result. If this player also has the Stunty trait, they can only be KO'd on a roll of 8, and will treat a roll of 7 as Stunned result. All other results are unaffected."
+        }
+    ]
+}
