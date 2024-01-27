@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'src/screens/home_screen.dart';
 import 'src/screens/skill_screen.dart';
+import 'src/screens/play_screen.dart';
+import 'src/screens/rosters_screen.dart';
 /*
   // Official colors and info that I cannot use at this time
     // Tan color: #f8e9d5 rgba(233,220,202,255)
@@ -16,8 +18,9 @@ class MyApp extends StatefulWidget {
   static final routes = {
     '/': (context) => const CircularProgressIndicator(),
     'HomeScreen': (context) => const HomeScreen(),
+    'PlayScreen' : (context) => const PlayScreen(),
     'SkillScreen': (context) => const SkillScreen(),
-    //'PlayScreen' : (context) => const PlayScreen(),
+    'RostersScreen' : (context) => const RostersScreen(),
     // Maybe a dice roller for those who want one?
       // Or put it on the play screen as an option
   };
@@ -33,12 +36,11 @@ class AppState extends State<MyApp> {
     return MaterialApp(
       title: 'BloodBowl App',
       theme: ThemeData(
-        appBarTheme: AppBarTheme(color: Colors.red[600]),
+        appBarTheme: AppBarTheme(color: Colors.red.shade500),
         scaffoldBackgroundColor: Colors.amber.shade50,
         textTheme: const TextTheme(
           titleLarge: TextStyle(
             fontSize: 22.0, 
-            fontStyle: FontStyle.italic
           ), // What the appbar uses by default
         )
       ),

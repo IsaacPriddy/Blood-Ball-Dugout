@@ -62,6 +62,9 @@ flutter:
   assets:
     - assets/json/skills_data.json
     - assets/imgs/temp_logo.png
+    - assets/imgs/temp.png
+    - assets/imgs/temp-opaque20.png
+    - assets/imgs/temp-opaque50.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

@@ -11,8 +11,13 @@ class HomeScreen extends StatefulWidget {
 class HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
+    // These are here so that the size dynamically changes with the size of the phone
+    double screenHeight = MediaQuery.of(context).size.height;
+    double screenWidth = MediaQuery.of(context).size.width;
+
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text(
           'BLOOD BOWL COMPANION APP',
           style: TextStyle(
@@ -20,67 +25,64 @@ class HomeScreenState extends State<HomeScreen> {
             fontSize: 24.0,
           )
         ),
-        centerTitle: true,
       ),
       body: Container(
-        decoration: BoxDecoration(
-          color: Colors.grey.withOpacity(0.5),
+        // Decoration for background image
+        decoration: const BoxDecoration(
           image: DecorationImage(
-            image: const AssetImage("assets/imgs/temp_logo.png"), 
+            image: AssetImage("assets/imgs/temp-opaque20.png"), 
             fit: BoxFit.contain,
-            colorFilter: ColorFilter.mode(
-              Colors.grey.withOpacity(0.5),
-              BlendMode.dstATop
-            )
           ),
         ),
-        child: const Center(
-          child: Text(
-            'This is my screen content',
-            style: TextStyle(
-              color: Colors.black, 
-              fontSize: 24.0, 
-              fontFamily: 'Nuffle'
-            ),
-          ),
+        // Child for the actual content of Container
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              // TODO: remove text later
+              // Text('Width: $screenWidth'),
+              // Text('Height: $screenHeight'),
+              navigationButton('Play Game', 'SkillScreen', screenHeight, screenWidth),
+              SizedBox(height: screenHeight * 0.0234), // Add vertical spacing, height was 16
+              navigationButton('Skills', 'SkillScreen', screenHeight, screenWidth),
+              SizedBox(height: screenHeight * 0.0234), // Add vertical spacing, height was 16
+              navigationButton('Rosters', 'SkillScreen', screenHeight, screenWidth),
+            ],
+          )
         ),
+      ),
+      bottomNavigationBar: Container(
+        // Just here to add blue to the screen and styling
+        color: Colors.blue.shade500,
+        height: screenHeight * 0.0878, // was 60.0
       ),
     );
   }
 
-/*
-  Widget listEntryBP(String text, String goto) {
-    return Container(
-      padding: const EdgeInsets.only(top: 4, left: 4, right: 4),
-      child: Card(
+  Widget navigationButton(String name, String location, double h, double w) {
+    return ElevatedButton(
+      onPressed: () {
+        Navigator.pushNamed(context, location);
+      },
+      style: ElevatedButton.styleFrom(
+        // General settings of the buttons
+        fixedSize: Size(h * 0.293, w * 0.122), // was 200, 50
+        padding: EdgeInsets.all(w*0.0234), // was 16
         shape: RoundedRectangleBorder(
           side: BorderSide(color: Colors.amber.shade50, width: 0.5),
-          borderRadius: BorderRadius.circular(5),
+          borderRadius: BorderRadius.circular(10)
         ),
-        child: ListTile(
-          title: Text(text),
-          onTap: () {
-            Navigator.pushNamed(
-              context,
-              goto,
-            );
-          },
+        // Text settings for the buttons
+        foregroundColor: Colors.black, 
+        backgroundColor: Colors.amber.shade100,
+        textStyle: const TextStyle(
+          fontSize: 18,
+          color: Colors.black,
+          fontFamily: 'Nuffle'
         ),
       ),
+      child: Text(name),
     );
   }
-*/
-
-/*
-  Widget homeScreenLayout() {
-    return ListView(
-      children: [
-        listEntryBP("Play Game", 'game_screen'),
-        listEntryBP("Skills", 'skill_screen'),
-        // listEntryBP("Teams", 'testingGoto'), // Update with an actual route name
-        // listEntryBP("Errata", 'testingGoto'), // Update with an actual route name
-      ],
-    );
-  }
-*/
 }
