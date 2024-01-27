@@ -1,0 +1,2 @@
+This section is where I actually create the pages that are linked to through
+navigation or other tools.
