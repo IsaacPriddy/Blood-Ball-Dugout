@@ -54,7 +54,7 @@ class SkillScreenState extends State<SkillScreen> {
     readJson();
   }
 
-  // SKILLS LIST WIDGETS
+  // SKILLS LIST WIDGETS      ---------------------------------
   Future<void> readJson() async {
     final String response = await rootBundle.loadString('assets/json/skills_data.json');
     final data = await json.decode(response);
@@ -102,7 +102,7 @@ class SkillScreenState extends State<SkillScreen> {
           );
   }
 
-  // SORTING BUTTONS WIDGETS
+  // SORTING BUTTONS WIDGETS  ---------------------------------
   /* 
     TODO: Maybe make a filter button on the appbar with a popout
       to make it more clear what each sorting bit is instead of letters

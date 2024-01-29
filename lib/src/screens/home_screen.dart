@@ -47,7 +47,7 @@ class HomeScreenState extends State<HomeScreen> {
               SizedBox(height: screenHeight * 0.0234), // Add vertical spacing, height was 16
               navigationButton('Skills', 'SkillScreen', screenHeight, screenWidth),
               SizedBox(height: screenHeight * 0.0234), // Add vertical spacing, height was 16
-              navigationButton('Rosters', 'SkillScreen', screenHeight, screenWidth),
+              navigationButton('Teams', 'TeamsScreen', screenHeight, screenWidth),
             ],
           )
         ),

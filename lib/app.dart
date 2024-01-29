@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'src/screens/home_screen.dart';
 import 'src/screens/skill_screen.dart';
 import 'src/screens/play_screen.dart';
-import 'src/screens/rosters_screen.dart';
+import 'src/screens/Rosters/teams_screen.dart';
 /*
   // Official colors and info that I cannot use at this time
     // Tan color: #f8e9d5 rgba(233,220,202,255)
@@ -20,7 +20,7 @@ class MyApp extends StatefulWidget {
     'HomeScreen': (context) => const HomeScreen(),
     'PlayScreen' : (context) => const PlayScreen(),
     'SkillScreen': (context) => const SkillScreen(),
-    'RostersScreen' : (context) => const RostersScreen(),
+    'TeamsScreen' : (context) => const TeamsScreen(),
     // Maybe a dice roller for those who want one?
       // Or put it on the play screen as an option
   };

@@ -1,0 +1,29 @@
+{
+    "teams": [
+        {
+            "name": "Humans",
+            "tier": "Tier 2",
+            "image": ""
+        },
+        {
+            "name": "Orcs",
+            "tier": "Tier 2",
+            "image": ""
+        },
+        {
+            "name": "Nurgle",
+            "tier": "Tier 2",
+            "image": ""
+        },
+        {
+            "name": "Khorne",
+            "tier": "Tier 2",
+            "image": ""
+        },
+        {
+            "name": "Goblins",
+            "tier": "Tier 3",
+            "image": ""
+        }
+    ]
+}
