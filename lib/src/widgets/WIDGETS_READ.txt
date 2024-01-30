@@ -1,2 +1,0 @@
-This section is for things that combine logic with some of those Views
-if I am understanding them correctly. These are reusable elements.

@@ -54,7 +54,7 @@ class SkillScreenState extends State<SkillScreen> {
     readJson();
   }
 
-  // SKILLS LIST WIDGETS      ---------------------------------
+  // SKILLS LIST WIDGETS
   Future<void> readJson() async {
     final String response = await rootBundle.loadString('assets/json/skills_data.json');
     final data = await json.decode(response);
@@ -69,40 +69,40 @@ class SkillScreenState extends State<SkillScreen> {
     _items.sort((a, b) => a["name"].compareTo(b["name"]));
 
     return _items.isEmpty
-        ? const Center(child: Text('No skills available'))
-        : ListView.builder(
-            itemCount: _items.length,
-            itemBuilder: (BuildContext context, int index) {
-              // Check if the skill's category is in the selected categories
-              if (_selectedCategories.isEmpty ||
-                  _selectedCategories.contains(_items[index]["category"])) {
-                return Card(
-                  margin: const EdgeInsets.all(6),
-                  child: ListTile(
-                    title: Text(_items[index]["name"],
-                        style: const TextStyle(fontFamily: 'Nuffle')),
-                    trailing: Text(_items[index]["category"]),
-                    subtitle: _isDescriptionVisible[index]
-                        ? Text(_items[index]["description"])
-                        : null,
-                    onTap: () {
-                      setState(() {
-                        _isDescriptionVisible[index] =
-                            !_isDescriptionVisible[index];
-                      });
-                    },
-                  ),
-                );
-              } else {
-                // If the category is not selected, return an empty container so that it doens't error
-                // Edge case catcher
-                return Container();
-              }
-            },
-          );
+      ? const Center(child: Text('No skills available'))
+      : ListView.builder(
+          itemCount: _items.length,
+          itemBuilder: (BuildContext context, int index) {
+            // Check if the skill's category is in the selected categories
+            if (_selectedCategories.isEmpty ||
+                _selectedCategories.contains(_items[index]["category"])) {
+              return Card(
+                margin: const EdgeInsets.all(6),
+                child: ListTile(
+                  title: Text(_items[index]["name"],
+                      style: const TextStyle(fontFamily: 'Nuffle')),
+                  trailing: Text(_items[index]["category"]),
+                  subtitle: _isDescriptionVisible[index]
+                      ? Text(_items[index]["description"])
+                      : null,
+                  onTap: () {
+                    setState(() {
+                      _isDescriptionVisible[index] =
+                          !_isDescriptionVisible[index];
+                    });
+                  },
+                ),
+              );
+            } else {
+              // If the category is not selected, return an empty container so that it doens't error
+              // Edge case catcher
+              return Container();
+            }
+          },
+        );
   }
 
-  // SORTING BUTTONS WIDGETS  ---------------------------------
+  // SORTING BUTTONS WIDGETS
   /* 
     TODO: Maybe make a filter button on the appbar with a popout
       to make it more clear what each sorting bit is instead of letters

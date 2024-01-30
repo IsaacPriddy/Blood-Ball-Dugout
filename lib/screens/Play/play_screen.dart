@@ -1,21 +1,24 @@
 import 'package:flutter/material.dart';
 
-class RosterScreen extends StatefulWidget {
-  const RosterScreen({super.key});
+class PlayScreen extends StatefulWidget {
+  const PlayScreen({super.key});
 
   @override
-  RosterScreenState createState() => RosterScreenState();
+  PlayScreenState createState() => PlayScreenState();
 }
 
-class RosterScreenState extends State<RosterScreen> {
+class PlayScreenState extends State<PlayScreen> {
+  // Variable List
+
+  // BUILD
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      key: const Key('skillScreenScaffold'), // Add a unique key here
+      key: const Key('playScreenScaffold'), // Add a unique key here
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          'ROSTER',
+          'PLAY GAME',
           style: TextStyle(
             fontFamily: 'Nuffle',
             fontSize: 24.0,
@@ -29,8 +32,10 @@ class RosterScreenState extends State<RosterScreen> {
             fit: BoxFit.contain,
           ),
         ),
-        child: const Center(
-          child: Text('This is an empty screen!'),
+        child: const Column(
+          children: [
+            Text('This is an empty screen!'),
+          ]
         ),
       )
     );

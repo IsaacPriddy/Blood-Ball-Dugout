@@ -1,0 +1,98 @@
+{
+    "team": {
+        "team_name": "Humans",
+        "rerollCost": 50000,
+        "players": [
+            {
+                "quantity": "0-16",
+                "position": "Human Lineman",
+                "stats": {
+                    "movement": 6,
+                    "strength": 3,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "9+"
+                },
+                "skills": [],
+                "primaryAccess": "G",
+                "secondaryAccess": "AS",
+                "cost": "50K"
+            },
+            {
+                "quantity": "0-4",
+                "position": "Catcher",
+                "stats": {
+                    "movement": 8,
+                    "strength": 2,
+                    "agility": "3+",
+                    "passing": "5+",
+                    "armor": "9+"
+                },
+                "skills": ["Catch", "Dodge"],
+                "primaryAccess": "GA",
+                "secondaryAccess": "SP",
+                "cost": "65k"
+            },
+            {
+                "quantity": "0-4",
+                "position": "Blitzer",
+                "stats": {
+                    "movement": 7,
+                    "strength": 3,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "9+"
+                },
+                "skills": ["Block"],
+                "primaryAccess": "GS",
+                "secondaryAccess": "AP",
+                "cost": "85k"
+            },
+            {
+                "quantity": "0-3",
+                "position": "Halfling Hopeful",
+                "stats": {
+                    "movement": 5,
+                    "strength": 2,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "7+"
+                },
+                "skills": ["Dodge", "Right Stuff", "Stunty"],
+                "primaryAccess": "A",
+                "secondaryAccess": "GS",
+                "cost": "30K"
+            },
+            {
+                "quantity": "0-2",
+                "position": "Thrower",
+                "stats": {
+                    "movement": 6,
+                    "strength": 3,
+                    "agility": "3+",
+                    "passing": "2+",
+                    "armor": "9+"
+                },
+                "skills": ["Pass", "Sure Hands"],
+                "primaryAccess": "GP",
+                "secondaryAccess": "AS",
+                "cost": "80k"
+            },
+            {
+                "quantity": "0-1",
+                "position": "Ogre",
+                "stats": {
+                    "movement": 5,
+                    "strength": 5,
+                    "agility": "4+",
+                    "passing": "5+",
+                    "armor": "10+"
+                },
+                "skills": ["Bone Head", "Loner (4+)", "Mighty Blow (+1)", "Thick Skull", "Throw Team-mate"],
+                "primaryAccess": "S",
+                "secondaryAccess": "AG",
+                "cost": "140k"
+            }
+        ]
+    }
+}

@@ -3,27 +3,45 @@
         {
             "name": "Humans",
             "tier": "Tier 2",
-            "image": ""
+            "specialRules": ["Old World Classic"],
+            "apothecary": true,
+            "image": "",
+            "rosterPath": "assets/json/Rosters/human_roster.json"
         },
         {
             "name": "Orcs",
             "tier": "Tier 2",
-            "image": ""
+            "specialRules": ["Badlands Brawl"],
+            "apothecary": true,
+            "image": "",
+            "rosterPath": "assets/json/Rosters/orc_roster.json"
         },
         {
             "name": "Nurgle",
             "tier": "Tier 2",
-            "image": ""
+            "specialRules": [],
+            "apothecary": true,
+            "image": "",
+            "rosterPath": ""
         },
         {
             "name": "Khorne",
             "tier": "Tier 2",
-            "image": ""
+            "specialRules": [],
+            "apothecary": true,
+            "image": "",
+            "rosterPath": ""
         },
         {
             "name": "Goblins",
             "tier": "Tier 3",
-            "image": ""
+            "specialRules": [],
+            "apothecary": true,
+            "image": "",
+            "rosterPath": ""
         }
-    ]
+    ],
+    "apothecaryCost": 50000,
+    "assistantCoachCost": 10000,
+    "cheerleaderCost": 10000
 }

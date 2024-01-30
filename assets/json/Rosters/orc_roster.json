@@ -1,0 +1,98 @@
+{
+    "team": {
+        "team_name": "Orcs",
+        "rerollCost": 60000,
+        "players": [
+            {
+                "quantity": "0-16",
+                "position": "Orc Lineman",
+                "stats": {
+                    "movement": 5,
+                    "strength": 3,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "10+"
+                },
+                "skills": ["Animosity (Orc Linemen)"],
+                "primaryAccess": "G",
+                "secondaryAccess": "AS",
+                "cost": "50k"
+            },
+            {
+                "quantity": "0-4",
+                "position": "Goblin",
+                "stats": {
+                    "movement": 6,
+                    "strength": 2,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "8+"
+                },
+                "skills": ["Dodge", "Right Stuff", "Stunty"],
+                "primaryAccess": "A",
+                "secondaryAccess": "GS",
+                "cost": "40k"
+            },
+            {
+                "quantity": "0-4",
+                "position": "Blitzer",
+                "stats": {
+                    "movement": 6,
+                    "strength": 3,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "10+"
+                },
+                "skills": ["Animosity (All)", "Block"],
+                "primaryAccess": "GS",
+                "secondaryAccess": "AP",
+                "cost": "80k"
+            },
+            {
+                "quantity": "0-4",
+                "position": "Big Un Blocker",
+                "stats": {
+                    "movement": 5,
+                    "strength": 4,
+                    "agility": "4+",
+                    "passing": "-",
+                    "armor": "10+"
+                },
+                "skills": ["Animosity (Big Un Blockers)"],
+                "primaryAccess": "GS",
+                "secondaryAccess": "AS",
+                "cost": "90k"
+            },
+            {
+                "quantity": "0-2",
+                "position": "Thrower",
+                "stats": {
+                    "movement": 5,
+                    "strength": 3,
+                    "agility": "3+",
+                    "passing": "3+",
+                    "armor": "9+"
+                },
+                "skills": ["Animosity (All)", "Pass", "Sure Hands"],
+                "primaryAccess": "GP",
+                "secondaryAccess": "AS",
+                "cost": "65K"
+            },
+            {
+                "quantity": "0-1",
+                "position": "Untrained Troll",
+                "stats": {
+                    "movement": 4,
+                    "strength": 5,
+                    "agility": "5+",
+                    "passing": "5+",
+                    "armor": "10+"
+                },
+                "skills": ["Always Hungry", "Loner (4+)", "Mighty Blow (+1)", "Projectile Vomit", "Really Stupid", "Regeneration", "Throw Team-mate"],
+                "primaryAccess": "S",
+                "secondaryAccess": "GAP",
+                "cost": "115k"
+            }
+        ]
+    }
+}

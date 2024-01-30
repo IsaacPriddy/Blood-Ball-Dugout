@@ -1,0 +1,38 @@
+{
+    "team": {
+        "team_name": "Team Name",
+        "rerollCost": 10000,
+        "players": [
+            {
+                "quantity": "0-16",
+                "position": "LINEMEN",
+                "stats": {
+                    "movement": 5,
+                    "strength": 3,
+                    "agility": "4+",
+                    "passing": "4+",
+                    "armor": "9+"
+                },
+                "skills": [],
+                "primaryAccess": "A",
+                "secondaryAccess": "GPS",
+                "cost": "45k"
+            },
+            {
+                "quantity": "0-4",
+                "position": "POSITION",
+                "stats": {
+                    "movement": 5,
+                    "strength": 3,
+                    "agility": "4+",
+                    "passing": "4+",
+                    "armor": "9+"
+                },
+                "skills": [],
+                "primaryAccess": "A",
+                "secondaryAccess": "GPS",
+                "cost": "45k"
+            }
+        ]
+    }
+}

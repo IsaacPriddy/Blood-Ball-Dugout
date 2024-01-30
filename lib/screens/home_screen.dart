@@ -40,10 +40,7 @@ class HomeScreenState extends State<HomeScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // TODO: remove text later
-              // Text('Width: $screenWidth'),
-              // Text('Height: $screenHeight'),
-              navigationButton('Play Game', 'SkillScreen', screenHeight, screenWidth),
+              navigationButton('Play Game', 'PlayScreen', screenHeight, screenWidth),
               SizedBox(height: screenHeight * 0.0234), // Add vertical spacing, height was 16
               navigationButton('Skills', 'SkillScreen', screenHeight, screenWidth),
               SizedBox(height: screenHeight * 0.0234), // Add vertical spacing, height was 16
