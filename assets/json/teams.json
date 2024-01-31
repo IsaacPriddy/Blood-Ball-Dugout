@@ -19,26 +19,26 @@
         {
             "name": "Nurgle",
             "tier": "Tier 2",
-            "specialRules": [],
-            "apothecary": true,
+            "specialRules": ["Favoured of Nurgle"],
+            "apothecary": false,
             "image": "",
-            "rosterPath": ""
+            "rosterPath": "assets/json/Rosters/nurgle_roster.json"
         },
         {
             "name": "Khorne",
             "tier": "Tier 2",
-            "specialRules": [],
+            "specialRules": ["Favoured of Khorne"],
             "apothecary": true,
             "image": "",
-            "rosterPath": ""
+            "rosterPath": "assets/json/Rosters/khorne_roster.json"
         },
         {
             "name": "Goblins",
             "tier": "Tier 3",
-            "specialRules": [],
+            "specialRules": ["Badlands Brawl", "Bribery and Corruption", "Underworld Challenge"],
             "apothecary": true,
             "image": "",
-            "rosterPath": ""
+            "rosterPath": "assets/json/Rosters/goblin_roster.json"
         }
     ],
     "apothecaryCost": 50000,

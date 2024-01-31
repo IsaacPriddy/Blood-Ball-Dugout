@@ -25,6 +25,7 @@ class MyApp extends StatefulWidget {
     'RosterScreen' : (context) => const RosterScreen(),
     // Maybe a dice roller for those who want one?
       // Or put it on the play screen as an option
+    // Possiblly a list of star players with the rules required to use them?
   };
 
   @override
@@ -36,13 +37,14 @@ class AppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'BloodBowl App',
+      title: 'Blood Bowl Companion App',
       theme: ThemeData(
         appBarTheme: AppBarTheme(color: Colors.red.shade500),
         scaffoldBackgroundColor: Colors.amber.shade50,
         textTheme: const TextTheme(
           titleLarge: TextStyle(
-            fontSize: 22.0, 
+            fontFamily: 'Nuffle',
+            fontSize: 24.0, 
           ), // What the appbar uses by default
         )
       ),

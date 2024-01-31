@@ -30,11 +30,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  syncfusion_flutter_datagrid: ^24.2.3
 
 dev_dependencies:
   flutter_test:
@@ -62,8 +61,12 @@ flutter:
   assets:
     - assets/json/skills_data.json
     - assets/json/teams.json
+    - assets/json/Rosters/goblin_roster.json
     - assets/json/Rosters/human_roster.json
+    - assets/json/Rosters/khorne_roster.json
+    - assets/json/Rosters/nurgle_roster.json
     - assets/json/Rosters/orc_roster.json
+
     - assets/imgs/temp.png
     - assets/imgs/temp-opaque20.png
     - assets/imgs/temp-opaque50.png

@@ -26,13 +26,7 @@ class TeamsScreenState extends State<TeamsScreen> {
       key: const Key('teamScreenScaffold'), // Add a unique key here
       appBar: AppBar(
         centerTitle: true,
-        title: const Text(
-          'TEAMS',
-          style: TextStyle(
-            fontFamily: 'Nuffle',
-            fontSize: 24.0,
-          )
-        ),
+        title: const Text('TEAMS'),
       ),
       body: Container(
         decoration: const BoxDecoration(

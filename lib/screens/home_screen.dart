@@ -18,13 +18,7 @@ class HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text(
-          'BLOOD BOWL COMPANION APP',
-          style: TextStyle(
-            fontFamily: 'Nuffle',
-            fontSize: 24.0,
-          )
-        ),
+        title: const Text('BLOOD BOWL COMPANION APP'),
       ),
       body: Container(
         // Decoration for background image

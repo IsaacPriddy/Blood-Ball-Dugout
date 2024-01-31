@@ -28,13 +28,7 @@ class RosterScreenState extends State<RosterScreen> {
       key: const Key('rosterScreenScaffold'), // Add a unique key here
       appBar: AppBar(
         centerTitle: true,
-        title: Text(
-          teamName,
-          style: const TextStyle(
-            fontFamily: 'Nuffle',
-            fontSize: 24.0,
-          )
-        ),
+        title: Text(teamName),
       ),
       body: Container(
         decoration: const BoxDecoration(
@@ -43,12 +37,10 @@ class RosterScreenState extends State<RosterScreen> {
             fit: BoxFit.contain,
           ),
         ),
-        child: Center(
+        child: const Center(
           child: Column(
             children: [
-              const Text("Stuff goes here"),
-              Text("Roster Path: $rosterPath"),
-              Text("The Team name is: $teamName")
+              Text("Stuff goes here"),
             ]
           )
         ),
@@ -65,7 +57,7 @@ class RosterScreenState extends State<RosterScreen> {
         final Map<String, dynamic> teamData = decodedData['team'];
 
         // Print the contents of teamData
-        debugPrint('Team data: $teamData');
+        // debugPrint('Team data: $teamData');
 
         teamName = teamData['team_name'] ?? 'Unknown Team';
       } else {

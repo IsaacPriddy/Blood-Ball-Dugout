@@ -1,0 +1,72 @@
+{
+    "team": {
+        "team_name": "Nurgle",
+        "rerollCost": 70000,
+        "players": [
+            {
+                "quantity": "0-16",
+                "position": "Rotter Lineman",
+                "stats": {
+                    "movement": 5,
+                    "strength": 3,
+                    "agility": "4+",
+                    "passing": "6+",
+                    "armor": "9+"
+                },
+                "skills": ["Decay", "Plague Ridden"],
+                "primaryAccess": "GM",
+                "secondaryAccess": "AS",
+                "cost": "35k"
+            },
+            {
+                "quantity": "0-4",
+                "position": "Pestigor",
+                "stats": {
+                    "movement": 6,
+                    "strength": 3,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "9+"
+                },
+                "skills": ["Horns", "Plague Ridden", "Regeneration"],
+                "primaryAccess": "GMS",
+                "secondaryAccess": "AP",
+                "cost": "75k"
+            },
+            {
+                "quantity": "0-4",
+                "position": "Bloater",
+                "stats": {
+                    "movement": 4,
+                    "strength": 4,
+                    "agility": "4+",
+                    "passing": "6+",
+                    "armor": "10+"
+                },
+                "skills": ["Disturbing Presence", "Foul Appearance", "Plague Ridden", "Regeneration"],
+                "primaryAccess": "GMS",
+                "secondaryAccess": "A",
+                "cost": "115k"
+            },
+            {
+                "quantity": "0-1",
+                "position": "Rotspawn",
+                "stats": {
+                    "movement": 4,
+                    "strength": 5,
+                    "agility": "5+",
+                    "passing": "-",
+                    "armor": "10+"
+                },
+                "skills": [
+                    "Disturbing Presence", "Foul Appearance", "Loner (4+)",
+                    "Mighty Blow (+1)", "Plague Ridden", "Really Stupid",
+                    "Regeneration", "Tentacles"
+                ],
+                "primaryAccess": "S",
+                "secondaryAccess": "GAM",
+                "cost": "140k"
+            }
+        ]
+    }
+}

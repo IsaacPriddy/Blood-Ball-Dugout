@@ -1,0 +1,68 @@
+{
+    "team": {
+        "team_name": "Khorne",
+        "rerollCost": 60000,
+        "players": [
+            {
+                "quantity": "0-16",
+                "position": "Bloodborn Marauder Lineman",
+                "stats": {
+                    "movement": 6,
+                    "strength": 3,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "8+"
+                },
+                "skills": ["Frenzy"],
+                "primaryAccess": "GM",
+                "secondaryAccess": "AS",
+                "cost": "50k"
+            },
+            {
+                "quantity": "0-4",
+                "position": "Khorngor",
+                "stats": {
+                    "movement": 6,
+                    "strength": 3,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "9+"
+                },
+                "skills": ["Horns", "Juggermait"],
+                "primaryAccess": "GSM",
+                "secondaryAccess": "AP",
+                "cost": "70k"
+            },
+            {
+                "quantity": "0-4",
+                "position": "Bloodseeker",
+                "stats": {
+                    "movement": 5,
+                    "strength": 4,
+                    "agility": "4+",
+                    "passing": "6+",
+                    "armor": "10+"
+                },
+                "skills": ["Frenzy"],
+                "primaryAccess": "GSM",
+                "secondaryAccess": "A",
+                "cost": "110k"
+            },
+            {
+                "quantity": "0-1",
+                "position": "Bloodspawn",
+                "stats": {
+                    "movement": 5,
+                    "strength": 5,
+                    "agility": "4+",
+                    "passing": "-",
+                    "armor": "9+"
+                },
+                "skills": ["Claws", "Frenzy", "Loner (4+)", "Mighty Blow (+1)", "Unchannelled Fury"],
+                "primaryAccess": "SM",
+                "secondaryAccess": "AG",
+                "cost": "160k"
+            }
+        ]
+    }
+}

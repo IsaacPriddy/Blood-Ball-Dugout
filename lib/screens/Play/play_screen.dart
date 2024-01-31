@@ -17,13 +17,7 @@ class PlayScreenState extends State<PlayScreen> {
       key: const Key('playScreenScaffold'), // Add a unique key here
       appBar: AppBar(
         centerTitle: true,
-        title: const Text(
-          'PLAY GAME',
-          style: TextStyle(
-            fontFamily: 'Nuffle',
-            fontSize: 24.0,
-          )
-        ),
+        title: const Text('PLAY GAME'),
       ),
       body: Container(
         decoration: const BoxDecoration(

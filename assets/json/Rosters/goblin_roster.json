@@ -1,0 +1,132 @@
+{
+    "team": {
+        "team_name": "Goblins",
+        "rerollCost": 60000,
+        "players": [
+            {
+                "quantity": "0-16",
+                "position": "Goblin Lineman",
+                "stats": {
+                    "movement": 6,
+                    "strength": 2,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "8+"
+                },
+                "skills": ["Dodge", "Right Stuff", "Stunty"],
+                "primaryAccess": "A",
+                "secondaryAccess": "GSP",
+                "cost": "40k"
+            },
+            {
+                "quantity": "0-2",
+                "position": "Trained Troll",
+                "stats": {
+                    "movement": 4,
+                    "strength": 5,
+                    "agility": "5+",
+                    "passing": "5+",
+                    "armor": "10+"
+                },
+                "skills": [
+                    "Always Hungry", "Loner (4+)", "Mighty Blow (+1)",
+                    "Projectile Vomit", "Really Stupid", "Regeneration",
+                    "Throw Team-mate"
+                ],
+                "primaryAccess": "S",
+                "secondaryAccess": "AGP",
+                "cost": "115k"
+            },
+            {
+                "quantity": "0-1",
+                "position": "Looney",
+                "stats": {
+                    "movement": 6,
+                    "strength": 2,
+                    "agility": "3+",
+                    "passing": "-",
+                    "armor": "8+"
+                },
+                "skills": ["Chainsaw", "Secret Weapon", "Stunty"],
+                "primaryAccess": "A",
+                "secondaryAccess": "GS",
+                "cost": "40k"
+            },
+            {
+                "quantity": "0-1",
+                "position": "Bomma",
+                "stats": {
+                    "movement": 6,
+                    "strength": 2,
+                    "agility": "3+",
+                    "passing": "4+",
+                    "armor": "8+"
+                },
+                "skills": ["Bombardier", "Dodge", "Secret Weapon", "Stunty"],
+                "primaryAccess": "A",
+                "secondaryAccess": "GSP",
+                "cost": "45k"
+            },
+            {
+                "quantity": "0-1",
+                "position": "Doom Diver",
+                "stats": {
+                    "movement": 6,
+                    "strength": 2,
+                    "agility": "3+",
+                    "passing": "6+",
+                    "armor": "8+"
+                },
+                "skills": ["Right Stuff", "Stunty", "Swoop"],
+                "primaryAccess": "A",
+                "secondaryAccess": "GS",
+                "cost": "60k"
+            },
+            {
+                "quantity": "0-1",
+                "position": "'Olligan",
+                "stats": {
+                    "movement": 6,
+                    "strength": 2,
+                    "agility": "3+",
+                    "passing": "6+",
+                    "armor": "8+"
+                },
+                "skills": ["Dirty Player (+1)", "Disturbing Presence", "Dodge", "Right Stuff", "Stunty"],
+                "primaryAccess": "A",
+                "secondaryAccess": "GSP",
+                "cost": "65k"
+            },
+            {
+                "quantity": "0-1",
+                "position": "Fanatic",
+                "stats": {
+                    "movement": 3,
+                    "strength": 7,
+                    "agility": "3+",
+                    "passing": "-",
+                    "armor": "8+"
+                },
+                "skills": ["Ball and Chain", "No Hands", "Secret Weapon", "Stunty"],
+                "primaryAccess": "S",
+                "secondaryAccess": "AG",
+                "cost": "70k"
+            },
+            {
+                "quantity": "0-1",
+                "position": "Pogoer",
+                "stats": {
+                    "movement": 7,
+                    "strength": 2,
+                    "agility": "3+",
+                    "passing": "5+",
+                    "armor": "8+"
+                },
+                "skills": ["Dodge", "Pogo Stick", "Stunty"],
+                "primaryAccess": "A",
+                "secondaryAccess": "GSP",
+                "cost": "75k"
+            }
+        ]
+    }
+}
