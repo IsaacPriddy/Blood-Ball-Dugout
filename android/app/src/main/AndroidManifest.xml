@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="tabletop_game_aid"
+        android:label="blood_ball_dugout"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
